@@ -105,3 +105,87 @@ img {
 .hero * {
   z-index: 10;
 }
+
+/* icons */
+.icons {
+  padding: 30px;
+}
+
+.icons h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.icons i {
+  background-color: #28a745;
+  border-radius: 50px;
+  padding: 20px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.flex-columns .column .column1,
+.flex-columns .column .column2 {
+  height: 100%;
+}
+
+.flex-columns img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flex-columns .column2 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 30px;
+}
+
+.flex-columns h2 {
+  font-size: 40px;
+  font-weight: 100;
+}
+.flex-columns h4 {
+  margin-bottom: 10px;
+}
+.flex-columns p {
+  margin: 20px 0;
+}
+
+.cases img:hover {
+  opacity: 0.7;
+}
+
+/* section header */
+
+.section-header {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.section-padding {
+  padding: 20px 20px 40px;
+}
+
+/* flex grid */
+.flex-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 40px;
+}
+
+.flex-grid .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
