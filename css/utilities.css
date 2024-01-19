@@ -23,20 +23,59 @@
 }
 
 /* button */
-.btn-primary {
+.btn-primary,
+.bg-primary {
   background-color: #28a745;
   color: #fff;
 }
 
-.btn-secondary {
+.btn-secondary,
+.bg-secondary {
   background-color: #0284d0;
   color: #fff;
 }
-.btn-primary {
+.btn-dark,
+.bg-dark {
   background-color: #333;
   color: #fff;
 }
-.btn-primary {
+.btn-light,
+.bg-light {
   background-color: #f4f4f4;
   color: #333;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+/* flex items */
+.flex-item {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.flex-item > div {
+  padding: 20px;
+}
+
+/* flex column */
+.flex-columns.flex-revers .row {
+  flex-direction: row-reverse;
+}
+.flex-columns .row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-columns .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
